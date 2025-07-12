@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高中周末制度表</title>
+    <style>
+        body {
+            font-family: '微软雅黑', Arial, sans-serif;
+            background-color: #f5f7fa;
+            margin: 0;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 30px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 15px 20px;
+            border: 1px solid #ddd;
+            vertical-align: top;
+        }
+        
+        th {
+            background-color: #3498db;
+            color: white;
+            text-align: left;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #ecf0f1;
+        }
+        
+        .time-period {
+            color: #2980b9;
+            font-weight: bold;
+        }
+        
+        .rule-number {
+            width: 60px;
+            text-align: center;
+        }
+        
+        .warning {
+            color: #e74c3c;
+            font-style: italic;
+        }
+        
+        @media (max-width: 600px) {
+            th, td {
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>高中周末制度管理规范</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th class="rule-number">序号</th>
+                    <th>规定内容</th>
+                    <th>补充说明</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="rule-number">1</td>
+                    <td>周末放假按时直接归家</td>
+                    <td>不得在外逗留、聚集或进行任何违规活动</td>
+                </tr>
+                <tr>
+                    <td class="rule-number">2</td>
+                    <td>家庭作息管理</td>
+                    <td>
+                        <ul style="padding-left: 20px; margin: 0;">
+                            <li>先完成作业再安排娱乐活动</li>
+                            <li>22:00前必须归家</li>
+                            <li class="warning">禁止携带手机进入卧室</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rule-number">3</td>
+                    <td>外出活动规范</td>
+                    <td>
+                        <ul style="padding-left: 20px; margin: 0;">
+                            <li>需提前报备地点及活动内容</li>
+                            <li class="warning">严禁抽烟、饮酒及接受陌生人饮料</li>
+                            <li class="warning">禁止进入桌球厅等娱乐场所</li>
+                            <li class="warning">严禁任何形式的赌博行为</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rule-number">4</td>
+                    <td>手机使用时段</td>
+                    <td>
+                        <span class="time-period">上午：</span>09:00-11:00<br>
+                        <span class="time-period">下午：</span>15:00-17:00<br>
+                        <span class="time-period">晚上：</span>19:00-21:00<br>
+                        <div class="warning">其余时间禁止使用手机</div>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="rule-number">5</td>
+                    <td>晚上时间</td>
+                    <td>外出人员必须于22:30前睡觉</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div style="margin-top: 30px; padding: 15px; background-color: #fef9e7; border-left: 5px solid #f39c12;</div>
+    </div>
+</body>
+</html>
